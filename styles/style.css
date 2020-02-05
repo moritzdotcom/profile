@@ -46,21 +46,16 @@ body {
   color: blue;
 }
 
-.fab {
+.fab, .fas {
   color: black;
 }
 
-.fab:hover {
+.fab:hover, .fas:hover {
   color: #00AFFF;
 }
 
 .icon-big {
   font-size: 40pt;
-}
-
-.list-inline > li {
-  display: inline;
-  margin: 0 50px;
 }
 
 .button-blue {
@@ -92,4 +87,31 @@ body {
 
 .emoji-large {
   font-size: 20pt;
+}
+
+.list-inline > li {
+    display: inline;
+    margin: 100px 5vw;
+  }
+
+@media (max-width: 870px) {
+  /* For a screen < 720px, this CSS will be read */
+  .list-inline > li {
+    display: inline;
+    margin: 100px 4vw;
+  }
+}
+@media (max-width: 695px) {
+  /* For a screen < 540px, this CSS will be read */
+  .list-inline > li {
+    display: inline;
+    margin: 100px 3vw;
+  }
+}
+@media (max-width: 600px) {
+  /* For a screen < 540px, this CSS will be read */
+  .list-inline > li {
+    display: inline;
+    margin: 100px 2vw;
+  }
 }
