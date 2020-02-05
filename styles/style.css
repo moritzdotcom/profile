@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,700&display=swap');
+
+body {
+  text-align: center;
+  letter-spacing: 2pt;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #EEEEFF;
+}
+
+#title {
+  font-size: 30pt;
+  margin-top: 0;
+}
+
+.title-blue {
+  font-size: 18pt;
+  color: #000044;
+  margin: 5px 0 40px 0;
+}
+
+.shadow-inside {
+  background-color: #004;
+  color: transparent;
+  text-shadow: 0px 2px 3px rgba(255,255,255,0.7);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+}
+
+.profile {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit:cover;
+  margin: 10px 0;
+  box-shadow: 0 0 8px #BBB;
+}
+
+.link-black {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hover-blue:hover {
+  color: blue;
+}
+
+.fab {
+  color: black;
+}
+
+.fab:hover {
+  color: #00AFFF;
+}
+
+.icon-big {
+  font-size: 40pt;
+}
+
+.list-inline > li {
+  display: inline;
+  margin: 0 50px;
+}
+
+.button-blue {
+  background-color: #00AFFF;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px grey;
+  text-decoration: none;
+}
+
+.button-blue:hover {
+  background-color: #00AF99;
+  box-shadow: 2px 2px 5px grey;
+}
+
+.card {
+  padding: 30px 0;
+  margin: 15px auto;
+  width: 90vw;
+  background-color: #FEFEFE;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px #CCCCDD;
+}
+
+.list-cv {
+  list-style: none;
+}
+
+.emoji-large {
+  font-size: 20pt;
+}
