@@ -95,23 +95,30 @@ body {
   }
 
 @media (max-width: 870px) {
-  /* For a screen < 720px, this CSS will be read */
+  /* For a screen < 870px, this CSS will be read */
   .list-inline > li {
     display: inline;
     margin: 100px 4vw;
   }
 }
 @media (max-width: 695px) {
-  /* For a screen < 540px, this CSS will be read */
+  /* For a screen < 695px, this CSS will be read */
   .list-inline > li {
     display: inline;
     margin: 100px 3vw;
   }
 }
 @media (max-width: 600px) {
-  /* For a screen < 540px, this CSS will be read */
+  /* For a screen < 600px, this CSS will be read */
   .list-inline > li {
     display: inline;
     margin: 100px 2vw;
+  }
+}
+@media (max-width: 500px) {
+  /* For a screen < 600px, this CSS will be read */
+  .list-inline > li {
+    display: inline;
+    margin: 100px 0vw;
   }
 }
