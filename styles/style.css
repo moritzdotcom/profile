@@ -97,7 +97,12 @@ body {
 .list-inline > li {
     display: inline;
     margin: 100px 5vw;
-  }
+}
+
+video {
+  width: 71vw;
+  height: 40vw;
+}
 
 @media (max-width: 870px) {
   /* For a screen < 870px, this CSS will be read */
