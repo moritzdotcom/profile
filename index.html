@@ -3,12 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <title>Moritz Löchner</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="styles/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 
-  <div class="card">
+  <div class="my-card">
     <h1 id="title" class="shadow-inside">Moritz Löchner</h1>
     <h2>Full Stack Web Developer</h2>
     <img src="images/IMG_6387 2.jpg" alt="Picture of myself" class="profile">
@@ -16,7 +17,7 @@
     <a href="#contact" class="button-blue">Contact Me</a>
   </div>
 
-  <div class="card">
+  <div class="my-card">
     <h3 class="title-blue shadow-inside">My Life So Far</h3>
     <ul class="list-cv">
       <li><p><span class="emoji-large">👨🏼‍💻</span>Coding Bootcamp at <a class="link-black hover-blue" href="https://www.lewagon.com" target="_blank">Le Wagon</a>, Berlin</p></li>
@@ -27,22 +28,44 @@
     </ul>
   </div>
 
-  <div class="card">
+  <div class="my-card">
     <h3 class="title-blue shadow-inside">Programming is life</h3>
-    <h3 class="title-blue">Check out my Awesome Snake Game!</h3>
-    <a href="https://github.com/moritzdotcom/fullstack-challenges/tree/master/02-OOP/02-OO-Advanced/Optional-02-Gosu-Game/lib" target="_blank">
-      <video width="960" height="540" controls>
-        <source src="videos/Snake_Game.mp4" type="video/mp4">
-        Your browser does not support the video tag :(
-      </video>
-    </a>
-    <h3 id="landing" class="title-blue">Check out my Landing Page Design!</h3>
-    <a href="https://moritzdotcom.github.io/landing/" target="_blank">
-      <img id="landing-img" src="images/landing-page.png" alt="Image of my Landing page">
-    </a>
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <video width="960" height="540" controls>
+            <source class="d-block w-100" src="videos/Snake_Game.mp4" type="video/mp4">
+            Your browser does not support the video tag :(
+          </video>
+          <div class="carousel-caption d-none d-md-block">
+            <h5 style="font-weight: bold">My Snake Game</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a class="d-block w-100" href="https://moritzdotcom.github.io/landing/" target="_blank">
+            <img id="landing-img" src="images/landing-page.png" alt="Image of my Landing page">
+          </a>
+          <div class="carousel-caption d-none d-md-block">
+            <h5 style="color: black; background-color: white; font-weight: bold">My Landing Page Design</h5>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
   </div>
 
-  <div class="card">
+  <div class="my-card">
     <h3 id="contact" class="title-blue shadow-inside">Social Media</h3>
     <ul class="list-inline">
       <li><a href="https://www.linkedin.com/in/moritz-l%C3%B6chner-393617129/" target="_blank"><i class="fab fa-linkedin-in icon-big"></i></a></li>
@@ -52,9 +75,12 @@
       <li><a href="https://edabit.com/user/FiHK5ZDMhR7d5WFET" target="_blank"><i class="fas fa-code icon-big"></i></a></li>
     </ul>
     <br>
-    <p>Layout and Design by Moritz Löchner - Updated on 6th Februrary 2020</p>
+    <p>Layout and Design by Moritz Löchner - Updated on 7th Februrary 2020</p>
   </div>
 
   <script src="https://kit.fontawesome.com/2376d8869d.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
